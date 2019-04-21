@@ -3,7 +3,7 @@ import flask_admin as admin
 from flask_admin_profiler import MemoryProfiler
 
 # Create flask app
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__)
 app.debug = True
 
 # Leak testing
